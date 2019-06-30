@@ -1,0 +1,33 @@
+.el-main {
+  padding: 0 10px;
+
+  .zhibo {
+    dl {
+      display: flex;
+      justify-content: space-between;
+      dt {
+        h2 {
+          font-weight: bolder;
+        }
+      }
+
+      dd {
+        margin: 0;
+        padding-top: 6px;
+
+        a {
+          font-size: 16px;
+          font-weight: 600;
+
+          // margin-top: 10px;
+          span {
+            font-size: 18px;
+            font-weight: bolder;
+            color: #666;
+          }
+        }
+      }
+    }
+
+  }
+}

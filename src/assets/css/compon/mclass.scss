@@ -1,0 +1,32 @@
+.m-class{
+  margin-top: 15px;
+  text-align: center;
+  h4{
+    color: #666;
+    line-height: 40px;
+  }
+  .m-list{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+      text-align: left;
+      width: 49%;
+      // height: 160px; 
+      margin-bottom: 20px;
+      img{
+        width: 100%;
+      
+      }
+      .title{
+        padding: 10px 15px 10px 2px;
+        font-size: 17px;
+        
+      }
+      .price{
+        color: blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.z-item{
+  display: flex;
+  margin: 5px 0;
+  // justify-content: space-between;
+  .z-img{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+
+  .item-r{
+    // flex: 1;
+    width: 50%;
+    h3{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    // margin-left: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    .teach{
+      margin: 10px 0;
+    }
+    .time{
+      color: #666;
+    }
+  }
+}
